@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ADAC4BD2490220100368721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4BC2490220100368721 /* AppDelegate.swift */; };
+		7ADAC4BF2490220100368721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4BE2490220100368721 /* SceneDelegate.swift */; };
+		7ADAC4C12490220100368721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C02490220100368721 /* ViewController.swift */; };
+		7ADAC4C42490220100368721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C22490220100368721 /* Main.storyboard */; };
+		7ADAC4C62490220800368721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C52490220800368721 /* Assets.xcassets */; };
+		7ADAC4C92490220800368721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C72490220800368721 /* LaunchScreen.storyboard */; };
+		7ADAC4D42490220900368721 /* BarcoOchentero2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4D32490220900368721 /* BarcoOchentero2Tests.swift */; };
+		7ADAC4DF2490220900368721 /* BarcoOchentero2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4DE2490220900368721 /* BarcoOchentero2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ADAC4D02490220900368721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADAC4B12490220100368721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADAC4B82490220100368721;
+			remoteInfo = BarcoOchentero2;
+		};
+		7ADAC4DB2490220900368721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADAC4B12490220100368721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADAC4B82490220100368721;
+			remoteInfo = BarcoOchentero2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ADAC4B92490220100368721 /* BarcoOchentero2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcoOchentero2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADAC4BC2490220100368721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ADAC4BE2490220100368721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7ADAC4C02490220100368721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ADAC4C32490220100368721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADAC4C52490220800368721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ADAC4C82490220800368721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ADAC4CA2490220800368721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADAC4CF2490220900368721 /* BarcoOchentero2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcoOchentero2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADAC4D32490220900368721 /* BarcoOchentero2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcoOchentero2Tests.swift; sourceTree = "<group>"; };
+		7ADAC4D52490220900368721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADAC4DA2490220900368721 /* BarcoOchentero2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcoOchentero2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADAC4DE2490220900368721 /* BarcoOchentero2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcoOchentero2UITests.swift; sourceTree = "<group>"; };
+		7ADAC4E02490220900368721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADAC4B62490220100368721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4CC2490220900368721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4D72490220900368721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADAC4B02490220100368721 = {
+			isa = PBXGroup;
+			children = (
+				7ADAC4BB2490220100368721 /* BarcoOchentero2 */,
+				7ADAC4D22490220900368721 /* BarcoOchentero2Tests */,
+				7ADAC4DD2490220900368721 /* BarcoOchentero2UITests */,
+				7ADAC4BA2490220100368721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADAC4BA2490220100368721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAC4B92490220100368721 /* BarcoOchentero2.app */,
+				7ADAC4CF2490220900368721 /* BarcoOchentero2Tests.xctest */,
+				7ADAC4DA2490220900368721 /* BarcoOchentero2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADAC4BB2490220100368721 /* BarcoOchentero2 */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAC4BC2490220100368721 /* AppDelegate.swift */,
+				7ADAC4BE2490220100368721 /* SceneDelegate.swift */,
+				7ADAC4C02490220100368721 /* ViewController.swift */,
+				7ADAC4C22490220100368721 /* Main.storyboard */,
+				7ADAC4C52490220800368721 /* Assets.xcassets */,
+				7ADAC4C72490220800368721 /* LaunchScreen.storyboard */,
+				7ADAC4CA2490220800368721 /* Info.plist */,
+			);
+			path = BarcoOchentero2;
+			sourceTree = "<group>";
+		};
+		7ADAC4D22490220900368721 /* BarcoOchentero2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAC4D32490220900368721 /* BarcoOchentero2Tests.swift */,
+				7ADAC4D52490220900368721 /* Info.plist */,
+			);
+			path = BarcoOchentero2Tests;
+			sourceTree = "<group>";
+		};
+		7ADAC4DD2490220900368721 /* BarcoOchentero2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAC4DE2490220900368721 /* BarcoOchentero2UITests.swift */,
+				7ADAC4E02490220900368721 /* Info.plist */,
+			);
+			path = BarcoOchentero2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADAC4B82490220100368721 /* BarcoOchentero2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADAC4E32490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2" */;
+			buildPhases = (
+				7ADAC4B52490220100368721 /* Sources */,
+				7ADAC4B62490220100368721 /* Frameworks */,
+				7ADAC4B72490220100368721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcoOchentero2;
+			productName = BarcoOchentero2;
+			productReference = 7ADAC4B92490220100368721 /* BarcoOchentero2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADAC4CE2490220900368721 /* BarcoOchentero2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADAC4E62490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2Tests" */;
+			buildPhases = (
+				7ADAC4CB2490220900368721 /* Sources */,
+				7ADAC4CC2490220900368721 /* Frameworks */,
+				7ADAC4CD2490220900368721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADAC4D12490220900368721 /* PBXTargetDependency */,
+			);
+			name = BarcoOchentero2Tests;
+			productName = BarcoOchentero2Tests;
+			productReference = 7ADAC4CF2490220900368721 /* BarcoOchentero2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ADAC4D92490220900368721 /* BarcoOchentero2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADAC4E92490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2UITests" */;
+			buildPhases = (
+				7ADAC4D62490220900368721 /* Sources */,
+				7ADAC4D72490220900368721 /* Frameworks */,
+				7ADAC4D82490220900368721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADAC4DC2490220900368721 /* PBXTargetDependency */,
+			);
+			name = BarcoOchentero2UITests;
+			productName = BarcoOchentero2UITests;
+			productReference = 7ADAC4DA2490220900368721 /* BarcoOchentero2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADAC4B12490220100368721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yisus;
+				TargetAttributes = {
+					7ADAC4B82490220100368721 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7ADAC4CE2490220900368721 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7ADAC4B82490220100368721;
+					};
+					7ADAC4D92490220900368721 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7ADAC4B82490220100368721;
+					};
+				};
+			};
+			buildConfigurationList = 7ADAC4B42490220100368721 /* Build configuration list for PBXProject "BarcoOchentero2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ADAC4B02490220100368721;
+			productRefGroup = 7ADAC4BA2490220100368721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADAC4B82490220100368721 /* BarcoOchentero2 */,
+				7ADAC4CE2490220900368721 /* BarcoOchentero2Tests */,
+				7ADAC4D92490220900368721 /* BarcoOchentero2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADAC4B72490220100368721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADAC4C92490220800368721 /* LaunchScreen.storyboard in Resources */,
+				7ADAC4C62490220800368721 /* Assets.xcassets in Resources */,
+				7ADAC4C42490220100368721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4CD2490220900368721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4D82490220900368721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADAC4B52490220100368721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADAC4C12490220100368721 /* ViewController.swift in Sources */,
+				7ADAC4BD2490220100368721 /* AppDelegate.swift in Sources */,
+				7ADAC4BF2490220100368721 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4CB2490220900368721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADAC4D42490220900368721 /* BarcoOchentero2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADAC4D62490220900368721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADAC4DF2490220900368721 /* BarcoOchentero2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADAC4D12490220900368721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADAC4B82490220100368721 /* BarcoOchentero2 */;
+			targetProxy = 7ADAC4D02490220900368721 /* PBXContainerItemProxy */;
+		};
+		7ADAC4DC2490220900368721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADAC4B82490220100368721 /* BarcoOchentero2 */;
+			targetProxy = 7ADAC4DB2490220900368721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ADAC4C22490220100368721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADAC4C32490220100368721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADAC4C72490220800368721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADAC4C82490220800368721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ADAC4E12490220900368721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ADAC4E22490220900368721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADAC4E42490220900368721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADAC4E52490220900368721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ADAC4E72490220900368721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarcoOchentero2.app/BarcoOchentero2";
+			};
+			name = Debug;
+		};
+		7ADAC4E82490220900368721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarcoOchentero2.app/BarcoOchentero2";
+			};
+			name = Release;
+		};
+		7ADAC4EA2490220900368721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarcoOchentero2;
+			};
+			name = Debug;
+		};
+		7ADAC4EB2490220900368721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarcoOchentero2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarcoOchentero2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADAC4B42490220100368721 /* Build configuration list for PBXProject "BarcoOchentero2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADAC4E12490220900368721 /* Debug */,
+				7ADAC4E22490220900368721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADAC4E32490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADAC4E42490220900368721 /* Debug */,
+				7ADAC4E52490220900368721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADAC4E62490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADAC4E72490220900368721 /* Debug */,
+				7ADAC4E82490220900368721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADAC4E92490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADAC4EA2490220900368721 /* Debug */,
+				7ADAC4EB2490220900368721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADAC4B12490220100368721 /* Project object */;
+}
