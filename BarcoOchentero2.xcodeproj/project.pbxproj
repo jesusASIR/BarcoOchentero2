@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18916B6833872A7BBDF7D5A0 /* Pods_BarcoOchentero2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92865BC4564D9A1CEC69701 /* Pods_BarcoOchentero2.framework */; };
+		7A04173524AA0CC6007FE27E /* TamanyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04173424AA0CC6007FE27E /* TamanyoViewController.swift */; };
+		7A52332524ACD773000094EF /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52332424ACD773000094EF /* MasaViewController.swift */; };
+		7A52332724ACD796000094EF /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52332624ACD796000094EF /* QuesoViewController.swift */; };
+		7A52332924ACD7AB000094EF /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52332824ACD7AB000094EF /* IngredientesViewController.swift */; };
+		7A58B7DA24ABBF5A0056100B /* Tamanyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58B7D924ABBF5A0056100B /* Tamanyo.swift */; };
+		7A58B7DC24ABDD7F0056100B /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58B7DB24ABDD7F0056100B /* FinalViewController.swift */; };
+		7A5AFF0B2491614F00672828 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AFF0A2491614F00672828 /* MapViewController.swift */; };
 		7ADAC4BD2490220100368721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4BC2490220100368721 /* AppDelegate.swift */; };
 		7ADAC4BF2490220100368721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4BE2490220100368721 /* SceneDelegate.swift */; };
 		7ADAC4C12490220100368721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C02490220100368721 /* ViewController.swift */; };
@@ -15,6 +23,9 @@
 		7ADAC4C92490220800368721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADAC4C72490220800368721 /* LaunchScreen.storyboard */; };
 		7ADAC4D42490220900368721 /* BarcoOchentero2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4D32490220900368721 /* BarcoOchentero2Tests.swift */; };
 		7ADAC4DF2490220900368721 /* BarcoOchentero2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4DE2490220900368721 /* BarcoOchentero2UITests.swift */; };
+		7ADAC4ED2490246F00368721 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ADAC4EC2490246F00368721 /* GoogleService-Info.plist */; };
+		7ADAC4EF249044FE00368721 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4EE249044FE00368721 /* HomeViewController.swift */; };
+		7ADAC4F7249157F300368721 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC4F6249157F300368721 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7ADAC4B92490220100368721 /* BarcoOchentero2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcoOchentero2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A04173424AA0CC6007FE27E /* TamanyoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamanyoViewController.swift; sourceTree = "<group>"; };
+		7A52332424ACD773000094EF /* MasaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		7A52332624ACD796000094EF /* QuesoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		7A52332824ACD7AB000094EF /* IngredientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
+		7A58B7D924ABBF5A0056100B /* Tamanyo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamanyo.swift; sourceTree = "<group>"; };
+		7A58B7DB24ABDD7F0056100B /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		7A5AFF0A2491614F00672828 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7ADAC4B92490220100368721 /* Blue springs .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue springs .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADAC4BC2490220100368721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ADAC4BE2490220100368721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7ADAC4C02490220100368721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,12 @@
 		7ADAC4DA2490220900368721 /* BarcoOchentero2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcoOchentero2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADAC4DE2490220900368721 /* BarcoOchentero2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcoOchentero2UITests.swift; sourceTree = "<group>"; };
 		7ADAC4E02490220900368721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADAC4EC2490246F00368721 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ADAC4EE249044FE00368721 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7ADAC4F6249157F300368721 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		94529C8EFCB0D49293DC2DF5 /* Pods-BarcoOchentero2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcoOchentero2.release.xcconfig"; path = "Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2.release.xcconfig"; sourceTree = "<group>"; };
+		9CC6EF51BBBDC1DBCE57C195 /* Pods-BarcoOchentero2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcoOchentero2.debug.xcconfig"; path = "Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2.debug.xcconfig"; sourceTree = "<group>"; };
+		B92865BC4564D9A1CEC69701 /* Pods_BarcoOchentero2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcoOchentero2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18916B6833872A7BBDF7D5A0 /* Pods_BarcoOchentero2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18BE7D23820BD9522247D3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B92865BC4564D9A1CEC69701 /* Pods_BarcoOchentero2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7ADAC4B02490220100368721 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +116,15 @@
 				7ADAC4D22490220900368721 /* BarcoOchentero2Tests */,
 				7ADAC4DD2490220900368721 /* BarcoOchentero2UITests */,
 				7ADAC4BA2490220100368721 /* Products */,
+				B5937F1423A551138766EE9F /* Pods */,
+				18BE7D23820BD9522247D3E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7ADAC4BA2490220100368721 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7ADAC4B92490220100368721 /* BarcoOchentero2.app */,
+				7ADAC4B92490220100368721 /* Blue springs .app */,
 				7ADAC4CF2490220900368721 /* BarcoOchentero2Tests.xctest */,
 				7ADAC4DA2490220900368721 /* BarcoOchentero2UITests.xctest */,
 			);
@@ -106,6 +141,16 @@
 				7ADAC4C52490220800368721 /* Assets.xcassets */,
 				7ADAC4C72490220800368721 /* LaunchScreen.storyboard */,
 				7ADAC4CA2490220800368721 /* Info.plist */,
+				7ADAC4EC2490246F00368721 /* GoogleService-Info.plist */,
+				7ADAC4EE249044FE00368721 /* HomeViewController.swift */,
+				7ADAC4F6249157F300368721 /* WebViewController.swift */,
+				7A5AFF0A2491614F00672828 /* MapViewController.swift */,
+				7A04173424AA0CC6007FE27E /* TamanyoViewController.swift */,
+				7A58B7D924ABBF5A0056100B /* Tamanyo.swift */,
+				7A58B7DB24ABDD7F0056100B /* FinalViewController.swift */,
+				7A52332424ACD773000094EF /* MasaViewController.swift */,
+				7A52332624ACD796000094EF /* QuesoViewController.swift */,
+				7A52332824ACD7AB000094EF /* IngredientesViewController.swift */,
 			);
 			path = BarcoOchentero2;
 			sourceTree = "<group>";
@@ -128,6 +173,15 @@
 			path = BarcoOchentero2UITests;
 			sourceTree = "<group>";
 		};
+		B5937F1423A551138766EE9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6EF51BBBDC1DBCE57C195 /* Pods-BarcoOchentero2.debug.xcconfig */,
+				94529C8EFCB0D49293DC2DF5 /* Pods-BarcoOchentero2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ADAC4E32490220900368721 /* Build configuration list for PBXNativeTarget "BarcoOchentero2" */;
 			buildPhases = (
+				78494075B8EF22860E1814A3 /* [CP] Check Pods Manifest.lock */,
 				7ADAC4B52490220100368721 /* Sources */,
 				7ADAC4B62490220100368721 /* Frameworks */,
 				7ADAC4B72490220100368721 /* Resources */,
+				9F792237B1E5B48B9125F24A /* [CP] Embed Pods Frameworks */,
+				974737CDFBEC7032697484D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,7 +202,7 @@
 			);
 			name = BarcoOchentero2;
 			productName = BarcoOchentero2;
-			productReference = 7ADAC4B92490220100368721 /* BarcoOchentero2.app */;
+			productReference = 7ADAC4B92490220100368721 /* Blue springs .app */;
 			productType = "com.apple.product-type.application";
 		};
 		7ADAC4CE2490220900368721 /* BarcoOchentero2Tests */ = {
@@ -233,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ADAC4C92490220800368721 /* LaunchScreen.storyboard in Resources */,
+				7ADAC4ED2490246F00368721 /* GoogleService-Info.plist in Resources */,
 				7ADAC4C62490220800368721 /* Assets.xcassets in Resources */,
 				7ADAC4C42490220100368721 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +312,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78494075B8EF22860E1814A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarcoOchentero2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974737CDFBEC7032697484D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F792237B1E5B48B9125F24A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BarcoOchentero2/Pods-BarcoOchentero2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7ADAC4B52490220100368721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7ADAC4C12490220100368721 /* ViewController.swift in Sources */,
+				7A58B7DC24ABDD7F0056100B /* FinalViewController.swift in Sources */,
+				7A52332524ACD773000094EF /* MasaViewController.swift in Sources */,
+				7A58B7DA24ABBF5A0056100B /* Tamanyo.swift in Sources */,
+				7A04173524AA0CC6007FE27E /* TamanyoViewController.swift in Sources */,
+				7A52332724ACD796000094EF /* QuesoViewController.swift in Sources */,
+				7A52332924ACD7AB000094EF /* IngredientesViewController.swift in Sources */,
+				7A5AFF0B2491614F00672828 /* MapViewController.swift in Sources */,
 				7ADAC4BD2490220100368721 /* AppDelegate.swift in Sources */,
 				7ADAC4BF2490220100368721 /* SceneDelegate.swift in Sources */,
+				7ADAC4F7249157F300368721 /* WebViewController.swift in Sources */,
+				7ADAC4EF249044FE00368721 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +558,7 @@
 		};
 		7ADAC4E42490220900368721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC6EF51BBBDC1DBCE57C195 /* Pods-BarcoOchentero2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,7 +568,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Blue springs ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +576,7 @@
 		};
 		7ADAC4E52490220900368721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94529C8EFCB0D49293DC2DF5 /* Pods-BarcoOchentero2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,7 +586,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.edu.BarcoOchentero2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Blue springs ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

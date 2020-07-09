@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "127CEA38-DE68-4B8B-9F98-9DF0F2DB27D6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76856456-D7A5-4194-8EC4-40DDAD288350"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarcoOchentero2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - 4d487a982a52039c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.logInButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - a6fcc2f0acfc7388"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.logInButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - 64032ccfa02c6799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.logInButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - 1f52f20047a5c6bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.logInButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - 3131a1735ab2ee57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Barco_Ochentero.ViewController"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "623">
+               </Location>
+               <Location
+                  uuid = "76856456-D7A5-4194-8EC4-40DDAD288350 - a24d0fb34596374c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barco_Ochentero.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Barco_Ochentero.ViewController&gt;"
+                  moduleName = "Barco Ochentero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yisus/Desktop/BarcoOchentero2/BarcoOchentero2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
